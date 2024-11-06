@@ -8,7 +8,6 @@ import { useLocation, useParams } from 'react-router-dom';
 import CustomCard from 'components/Card';
 import PageHeader from 'components/PageHeader/PageHeader';
 import TabComponent from 'components/Tabs';
-import { PRIVATE_NAVIGATION } from 'constants/navigation.constant';
 import ClientCourseListing from './ClientCourseListing';
 
 // ** hooks **
@@ -125,10 +124,8 @@ const ClientAttendeeTab = () => {
         text={attendeeView?.full_name ?? t('CoursesManagement.ViewCourse.Details')}
         url={
           url.searchParams.has('isAttendee')
-            ? `${PRIVATE_NAVIGATION.clientsManagement.attendee.list.path}${
-                url?.search ?? ''
-              }`
-            : PRIVATE_NAVIGATION.clientsManagement.attendee.list.path
+            ? `/clients/attendee${url?.search ?? ''}`
+            : '/clients/attendee'
         }
       />
       <CustomCard minimal>

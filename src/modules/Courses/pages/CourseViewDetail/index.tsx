@@ -5,7 +5,6 @@ import Image from 'components/Image';
 import { ConfirmationPopup } from 'components/Modal/ConfirmationPopup';
 import PageHeader from 'components/PageHeader/PageHeader';
 import TabComponent from 'components/Tabs';
-import { PRIVATE_NAVIGATION } from 'constants/navigation.constant';
 import { ROLES } from 'constants/roleAndPermission.constant';
 import { useAxiosPost } from 'hooks/useAxios';
 import { useModal } from 'hooks/useModal';
@@ -150,25 +149,23 @@ const ViewCourseIndex = () => {
       case url.searchParams.has('isCourse'):
         return `/course-management${url.search ?? ''}`;
       case _.isEmpty(state):
-        return PRIVATE_NAVIGATION.coursesManagement.courseManagement.path;
+        return '/course-management';
       case state.comingFromCoursePipeline:
-        return PRIVATE_NAVIGATION.coursePipeline.view.path;
+        return '/course-pipeline';
       case state.comingFromCourseRequest:
         return `/manager/requested-courses/${state.slug}`;
       case state.isTemplate && url.searchParams.has('isTemplate'):
-        return `${PRIVATE_NAVIGATION.coursesManagement.courseTemplates.path}${
-          url.search ?? ''
-        }`;
+        return `/course/templates${url.search ?? ''}`;
       case state.isTemplate:
-        return PRIVATE_NAVIGATION.coursesManagement.courseTemplates.path;
+        return '/course/templates';
       case state.isTemplateBundle && !!state.bundleSlug:
-        return `${PRIVATE_NAVIGATION.coursesManagement.templateBundle.path}/view?slug=${state.bundleSlug}`;
+        return `/template-bundle/view?slug=${state.bundleSlug}`;
       case state.isTemplateBundle:
-        return PRIVATE_NAVIGATION.coursesManagement.templateBundle.path;
+        return '/template-bundle';
       case state.isCourseBundle && !!state.courseBundleSlug:
-        return `${PRIVATE_NAVIGATION.coursesManagement.courseBundle.path}/view?slug=${state.courseBundleSlug}`;
+        return `/course-bundle/view?slug=${state.courseBundleSlug}`;
       case state.isCourseBundle:
-        return PRIVATE_NAVIGATION.coursesManagement.courseBundle.path;
+        return '/course-bundle';
       case state.fromTrainer:
         return `/users/${state.userRolePath}/${state.userSlug}`;
       case state.fromClientCompany:
@@ -180,7 +177,7 @@ const ViewCourseIndex = () => {
       case state?.fromDashboard:
         return `/`;
       default:
-        return PRIVATE_NAVIGATION.coursesManagement.courseManagement.path;
+        return '/course-management';
     }
   };
   const getTitleText = (): string => {
