@@ -7,7 +7,6 @@ import PageHeader from 'components/PageHeader/PageHeader';
 import CourseFundedDocument from 'modules/CompanyManager/components/courses/CourseFundedDocument';
 
 // **constants**
-import { PRIVATE_NAVIGATION } from 'constants/navigation.constant';
 import { ROLES } from 'constants/roleAndPermission.constant';
 
 // **libraries**
@@ -84,68 +83,68 @@ const ViewCourse = ({
     }
   }, [response]);
 
+  const getBackUrl = (): string => {
+    if (user?.role_name === ROLES.Trainer) {
+      if (state?.fromDashboard) return '/';
+      if (state?.isInvite) return '/courses/invitation';
+      if (state?.isAllInvite) return '/courses/all-invitation';
+
+      return `/trainer-courses${url.search ?? ''}`;
+    }
+    if (user?.role_name === ROLES.SalesRep && state?.comingFromCoursePipeline) {
+      return '/course-pipeline';
+    }
+    if (
+      (user?.role_name === ROLES.SalesRep || user?.role_name === ROLES.Accounting) &&
+      !state?.comingFromCoursePipeline
+    ) {
+      return '/course/view';
+    }
+    return '/course-management';
+  };
+
   // const getBackUrl = (): string => {
+  //   const sanitizeUrlSearch = (search: string | null): string => {
+  //     // If there's no search query, return an empty string
+  //     if (!search) return '';
+
+  //     // Whitelist of allowed search query patterns or paths (for example, only internal paths are allowed)
+  //     const allowedPaths = [
+  //       '/courses/',
+  //       '/dashboard/',
+  //       '/invitation',
+  //       '/all-invitation',
+  //     ];
+
+  //     // Check if the search query starts with a valid path
+  //     const isValidSearch = allowedPaths.some((path) => search.startsWith(path));
+
+  //     return isValidSearch ? search : ''; // If not valid, return empty string (no redirect)
+  //   };
+
   //   if (user?.role_name === ROLES.Trainer) {
   //     if (state?.fromDashboard) return '/';
   //     if (state?.isInvite) return '/courses/invitation';
   //     if (state?.isAllInvite) return '/courses/all-invitation';
 
-  //     return `${PRIVATE_NAVIGATION.trainerCourses.view.path}${url.search ?? ''}`;
+  //     // Sanitize the url.search before appending
+  //     const sanitizedSearch = sanitizeUrlSearch(url.search ?? '');
+  //     return `${PRIVATE_NAVIGATION.trainerCourses.view.path}${sanitizedSearch}`;
   //   }
+
   //   if (user?.role_name === ROLES.SalesRep && state?.comingFromCoursePipeline) {
   //     return PRIVATE_NAVIGATION.coursePipeline.view.path;
   //   }
+
   //   if (
   //     (user?.role_name === ROLES.SalesRep || user?.role_name === ROLES.Accounting) &&
   //     !state?.comingFromCoursePipeline
   //   ) {
   //     return PRIVATE_NAVIGATION.salesRepCourses.view.path;
   //   }
+
   //   return PRIVATE_NAVIGATION.coursesManagement.courseManagement.path;
   // };
-
-  const getBackUrl = (): string => {
-    const sanitizeUrlSearch = (search: string | null): string => {
-      // If there's no search query, return an empty string
-      if (!search) return '';
-
-      // Whitelist of allowed search query patterns or paths (for example, only internal paths are allowed)
-      const allowedPaths = [
-        '/courses/',
-        '/dashboard/',
-        '/invitation',
-        '/all-invitation',
-      ];
-
-      // Check if the search query starts with a valid path
-      const isValidSearch = allowedPaths.some((path) => search.startsWith(path));
-
-      return isValidSearch ? search : ''; // If not valid, return empty string (no redirect)
-    };
-
-    if (user?.role_name === ROLES.Trainer) {
-      if (state?.fromDashboard) return '/';
-      if (state?.isInvite) return '/courses/invitation';
-      if (state?.isAllInvite) return '/courses/all-invitation';
-
-      // Sanitize the url.search before appending
-      const sanitizedSearch = sanitizeUrlSearch(url.search ?? '');
-      return `${PRIVATE_NAVIGATION.trainerCourses.view.path}${sanitizedSearch}`;
-    }
-
-    if (user?.role_name === ROLES.SalesRep && state?.comingFromCoursePipeline) {
-      return PRIVATE_NAVIGATION.coursePipeline.view.path;
-    }
-
-    if (
-      (user?.role_name === ROLES.SalesRep || user?.role_name === ROLES.Accounting) &&
-      !state?.comingFromCoursePipeline
-    ) {
-      return PRIVATE_NAVIGATION.salesRepCourses.view.path;
-    }
-
-    return PRIVATE_NAVIGATION.coursesManagement.courseManagement.path;
-  };
 
   const fundedDocs =
     !_.isEmpty(course?.course_funded_docs) &&
