@@ -1,0 +1,109 @@
+/* kanban style */
+body .react-kanban-board {
+  @apply pb-3 min-h-[calc(100dvh_-_250px)];
+
+  &::-webkit-scrollbar {
+    @apply !w-0 !h-1;
+  }
+}
+body .react-kanban-column {
+  @apply bg-white shadow-kanbanCard shadow-dark/10 rounded-md w-[300px] me-4 !p-3 relative;
+}
+body .react-kanban-column > div:nth-child(1) {
+  @apply mb-1.5;
+}
+body .react-kanban-column > div[data-rfd-droppable-id]:nth-child(2) {
+  @apply !max-h-[calc(100dvh_-_320px)] overflow-auto;
+
+  &::-webkit-scrollbar {
+    @apply !w-0 !h-0;
+  }
+}
+body .remove-column-padding .react-kanban-column {
+  @apply !pb-4;
+}
+body .react-kanban-column-header__spacer {
+  @apply text-base leading-5 font-semibold;
+}
+
+body .react-kanban-column-header {
+  @apply pb-0;
+}
+body .react-kanban-column_add-column {
+  @apply ps-2.5;
+}
+body .react-kanban-column_add-column > * {
+  @apply bg-offWhite2 py-2  rounded-md w-[300px];
+}
+
+/* kanban style END */
+
+.member-img-div {
+  @apply w-9 h-9 rounded-full shadow hover:z-1 relative;
+}
+.member-imgCount-div {
+  @apply w-9 h-9 rounded-full shadow bg-white hover:z-1 relative;
+}
+.member-imgCount-span {
+  @apply inline-flex justify-center items-center bg-authBG text-primary font-medium text-sm w-full h-full rounded-full;
+}
+.inside-list-modal-title {
+  @apply py-3.5 px-5 border-b border-solid border-borderColor rounded-t-lg flex justify-between items-center;
+}
+.attachment-modal-title {
+  @apply py-3.5 px-5 border-b border-solid border-borderColor rounded-t-lg flex justify-between;
+}
+
+.project-boardEditRemove-div {
+  @apply translate-y-4 opacity-0 pointer-events-none group-hover:-translate-y-px group-hover:opacity-100 group-hover:pointer-events-auto  absolute top-full flex flex-col gap-y-1 bg-white min-w-[150px] right-0 p-2 rounded-lg shadow-xl border border-solid border-gray-200 transition-all duration-500 after:absolute after:w-full after:h-4 after:bottom-full after:right-0;
+}
+.project-boardEdit-button {
+  @apply flex hover:bg-primary hover:text-white py-2 px-2 rounded-md text-sm font-semibold cursor-pointer transition-all duration-300 w-full;
+}
+.project-boardRemot-button {
+  @apply w-full select-none hover:bg-red-500 text-red-500 hover:text-white  py-2 px-2 rounded-md text-sm font-semibold cursor-pointer transition-all duration-300 flex items-center;
+}
+/* .attachment-delete-hover {
+  @apply translate-y-4 opacity-0 pointer-events-none group-hover:-translate-y-px group-hover:opacity-100 group-hover:pointer-events-auto absolute top-full flex flex-col gap-y-1 bg-white min-w-[250px] left-full p-5 rounded-lg shadow-xl border border-solid border-gray-200 transition-all duration-500 after:absolute after:w-full after:h-4 after:bottom-full after:right-0;
+} */
+.attachMent-hover {
+  @apply translate-y-4 opacity-0 mt-2 pointer-events-none group-hover:-translate-y-px group-hover:opacity-100 group-hover:pointer-events-auto absolute top-full flex flex-col gap-y-1 bg-white min-w-[250px]  p-5 rounded-lg shadow-xl border border-solid border-gray-200 transition-all duration-500 after:absolute after:w-full after:h-4 after:bottom-full after:right-0;
+}
+.add-course-button {
+  @apply justify-start inline-flex items-center text-emerald-500 font-medium gap-1 w-fit;
+}
+
+/* Detail page css */
+.detailPage-groupDiv {
+  @apply bg-offWhite py-5 px-6 group-first:rounded-tl-xl group-last:rounded-tr-xl border-s group-last:border-e border-solid border-black/5 group-last:border-0;
+}
+.detailPage-table-data {
+  @apply border-b border-s group-last:border-e border-solid border-black/5 py-5 px-6 flex flex-col gap-3 h-[calc(100%_-_64px)];
+}
+
+.MentionsInput__highlighter {
+  @apply font-inter;
+}
+.MentionsInput__control textarea {
+  @apply block !font-inter w-full p-3 !pr-12 placeholder:text-grayText text-dark font-normal border border-borderColor border-solid rounded-10px focus:ring-2 focus:ring-dark/20 focus:ring-offset-2 transition-all duration-300;
+}
+.MentionsInput--multiLine:has(.MentionsInput__suggestions) textarea {
+  @apply opacity-60;
+}
+.MentionsInput__suggestions {
+  @apply -translate-y-full;
+}
+.MentionsInput__suggestions__list {
+  @apply !p-2 flex flex-col gap-y-1 rounded-lg shadow-xl  border border-solid border-borderColor;
+}
+.MentionsInput__suggestions__item {
+  @apply flex !bg-offWhite !text-dark py-2 px-2 rounded-md text-sm font-medium cursor-pointer transition-all duration-300 w-full !border-none;
+}
+.MentionsInput__suggestions__item__display {
+}
+.MentionsInput__suggestions__item--focused {
+  @apply !bg-primary !text-white;
+}
+.custom-mention {
+  @apply font-normal !font-inter bg-primary/10 text-primary rounded-md p-0.5;
+}

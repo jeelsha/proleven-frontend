@@ -1,0 +1,51 @@
+/* .react-kanban-column {
+  @apply bg-white shadow-kanbanCard shadow-dark/10 rounded-md w-[350px];
+}
+.react-kanban-column-header__spacer {
+  @apply text-base leading-5 font-semibold;
+}
+.react_kanban_card-inner {
+  @apply w-[320px] rounded-lg bg-offWhite2 border border-solid border-offWhite;
+}
+.react_kanban_card-text {
+  @apply text-sm font-medium leading-4 px-4 mb-7;
+}
+.react-kanban-column-header {
+  @apply pb-0;
+}
+.react_kanban_card {
+  @apply mt-2.5 active:scale-[0.95] transition-all duration-300;
+}
+.react-kanban-column_add-column {
+  @apply ps-2.5;
+}
+.react-kanban-column_add-column > * {
+  @apply bg-offWhite2 py-2  rounded-md w-[350px];
+}
+.react_kanban_card-image {
+  @apply h-[150px] w-full mb-3;
+}
+.react_kanban_card-labels {
+  @apply flex flex-wrap gap-2 px-4 mb-3.5;
+}
+.react_kanban_card-label {
+  @apply text-xs leading-[1.5] py-0.5 px-1.5 bg-gray-200 font-medium rounded;
+}
+.filter_modal_first_div {
+  @apply absolute top-[calc(100%_+_15px)] right-0 before:absolute before:content-[''] before:w-5 before:h-5 before:bg-white before:rotate-45 before:right-5 before:-top-2;
+}
+.delete_card_button {
+  @apply w-full select-none hover:bg-red-500 text-red-500 hover:text-white  py-2 px-2 rounded-md text-sm font-semibold cursor-pointer transition-all duration-300 flex items-center;
+}
+.header_column_div {
+  @apply translate-y-4 opacity-0 pointer-events-none group-hover:-translate-y-px group-hover:opacity-100 group-hover:pointer-events-auto  absolute top-full flex flex-col gap-y-1 bg-white min-w-[150px] left-0 p-2 rounded-lg shadow-xl border border-solid border-gray-200 transition-all duration-500 after:absolute after:w-full after:h-4 after:bottom-full after:right-0;
+}
+.header_column_edit_button {
+  @apply flex hover:bg-primary hover:text-white py-2 px-2 rounded-md text-sm font-semibold cursor-pointer transition-all duration-300 w-full;
+}
+.header_column_remove_button {
+  @apply w-full select-none hover:bg-red-500 text-red-500 hover:text-white  py-2 px-2 rounded-md text-sm font-semibold cursor-pointer transition-all duration-300 flex items-center;
+}
+.footer_column_addCard_button {
+  @apply flex hover:bg-primary hover:text-white py-2 px-2 rounded-md text-sm font-semibold cursor-pointer transition-all duration-300 w-32;
+} */

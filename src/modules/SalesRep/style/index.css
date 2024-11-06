@@ -1,0 +1,6 @@
+.actionRender-div {
+  @apply w-7 h-7 inline-block bg-green2/10 text-green2 p-1 rounded-md transition-all duration-300 active:scale-90 cursor-pointer select-none;
+}
+.actionRender-status-button {
+  @apply w-7 h-7 inline-block bg-danger/10 text-danger p-1 rounded-md transition-all duration-300 active:scale-90 cursor-pointer select-none;
+}

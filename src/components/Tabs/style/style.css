@@ -1,0 +1,12 @@
+.tab-header {
+  @apply flex justify-between items-end gap-7 border-b border-solid border-borderColor overflow-x-auto;
+}
+.tab-items {
+  @apply flex items-center  h-fit flex-[1_0_0%] whitespace-nowrap;
+}
+.tab-item.active {
+  @apply font-medium text-primary cursor-pointer border-b-2 border-b-primary ms-6 first:ms-0;
+}
+.tab-item {
+  @apply flex items-center pb-4 text-base font-normal hover:text-primary text-grayText cursor-pointer border-b-2 border-b-transparent ms-6 first:ms-0;
+}

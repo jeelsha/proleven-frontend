@@ -1,0 +1,66 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": false, // required
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "vs-code-prettier-eslint.prettierLast": true,
+  "cSpell.words": [
+    "Accordian",
+    "ateco",
+    "authbg",
+    "Avaliable",
+    "blacktheme",
+    "byweekday",
+    "Codice",
+    "companyinvoice",
+    "dtstart",
+    "fieldname",
+    "filesupport",
+    "Fiscale",
+    "Formik",
+    "futture",
+    "graytext",
+    "icalendar",
+    "ismodal",
+    "logoformat",
+    "logosize",
+    "lumpsum",
+    "lumpsump",
+    "paytabs",
+    "Proleven",
+    "querybuilder",
+    "refatch",
+    "rrule",
+    "Textbox",
+    "tiptap",
+    "zipcode"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sonarlint.connectedMode.project": {
+    "connectionId": "kajal-ebiz",
+    "projectKey": "kajal-ebiz_proleven-BE"
+  },
+  "sonarlint.output.showAnalyzerLogs": true,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": true,
+  "liveServer.settings.port": 5501,
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  }
+}

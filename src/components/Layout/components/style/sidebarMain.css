@@ -1,0 +1,13 @@
+.sidebar-container {
+  @apply w-full bg-white fixed top-0 -left-full md:left-0 h-100dvh transition-all duration-500 select-none z-[125] md:z-[124] border-e border-solid border-offWhite;
+}
+.sidebar-container.open {
+  @apply left-0;
+}
+.sidebar-subcontainer {
+  @apply whitespace-nowrap transition-all duration-300 transform  top-0 start-0 z-[60] bg-white border-e border-gray-200 pb-10  block translate-x-0 end-auto bottom-0;
+}
+
+.menu_links {
+  @apply flex items-center gap-x-3.5 py-3 px-2.5 text-sm rounded-lg hover:bg-secondary transition-all;
+}

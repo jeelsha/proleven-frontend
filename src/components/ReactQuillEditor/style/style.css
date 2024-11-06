@@ -1,0 +1,25 @@
+.quill {
+  @apply !border-none !border-borderColor;
+}
+.ql-container.ql-snow {
+  @apply !border-t-0 !border-borderColor;
+}
+.ql-toolbar.ql-snow {
+  @apply rounded-t-xl !border-borderColor;
+}
+.ql-container {
+  @apply rounded-b-xl !border-borderColor;
+}
+/* sd{
+@apply min-h-[284px];
+} */
+.quill{
+  @apply !h-unset
+}
+.ql-container .ql-editor,
+.update-height .ql-container {
+  @apply min-h-[200px] 1200:min-h-[282px];
+}
+.ql-size-huge {
+  @apply text-xl;
+}

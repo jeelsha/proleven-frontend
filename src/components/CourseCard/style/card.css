@@ -1,0 +1,11 @@
+.card-highlight-label {
+  @apply absolute right-0 top-7 text-xs leading-none py-1 px-2.5 select-none rounded-l-full bg-[#00BD9D] text-white;
+}
+.card-button {
+  @apply cursor-pointer active:scale-90 select-none w-54px h-54px rounded-full bg-lime text-dark flex items-center justify-center transition-all duration-300;
+}
+
+.card-button image,
+.card-button svg {
+  @apply -rotate-45;
+}

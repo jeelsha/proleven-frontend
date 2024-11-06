@@ -1,0 +1,39 @@
+/* datatable css starts */
+.datatable-main {
+  @apply border-spacing-y-1 border-separate;
+}
+.datatable-main td,
+.datatable-main th {
+  @apply bg-white first:border-s last:border-e border-y border-solid border-navText/[0.1] p-2;
+}
+.datatable-main tr {
+  @apply rounded-xl;
+}
+.datatable-main tr td,
+.datatable-main tr th {
+  @apply first:rounded-l-xl last:rounded-r-xl;
+}
+.datatable-main th {
+  @apply last:w-[200px] px-3 first:border-s last:border-e border-y border-solid border-navText/10 py-3.5 text-sm bg-[#F3F3F5] font-semibold text-dark;
+}
+
+.datatable-main.sticky-action-column th,
+.datatable-main.sticky-action-column td {
+  @apply last:sticky last:right-0;
+}
+
+.full-width-heading {
+  @apply !w-[80%];
+}
+
+.full-width-heading span {
+  @apply !justify-start;
+}
+
+.profile-listing-table td:last-child div {
+  @apply !justify-start;
+}
+
+.profile-listing-table td:last-child div span {
+  @apply !text-left;
+}

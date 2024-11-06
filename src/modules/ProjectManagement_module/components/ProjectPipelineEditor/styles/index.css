@@ -1,0 +1,76 @@
+/* Basic editor styles */
+.tiptap {
+  @apply first:mt-2.5 text-xs;
+}
+
+.ProseMirror blockquote {
+  @apply m-2.5 pl-4 mb-2.5 border-l border-solid border-black/70;
+}
+
+/* List styles */
+.ProseMirror ul,
+.ProseMirror ol {
+  @apply px-4 my-5 mr-4 ml-1.5 list-none;
+}
+
+.ProseMirror ul li,
+.ProseMirror ol li,
+.ProseMirror ul p,
+.ProseMirror ol p {
+  @apply my-1.5;
+}
+/* Heading styles */
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h2 {
+  @apply leading-tight text-pretty;
+}
+
+.ProseMirror h1 {
+  @apply text-3xl;
+}
+
+.ProseMirror h2 {
+  @apply text-2xl;
+}
+
+.ProseMirror h3 {
+  @apply text-xl;
+}
+
+/* Code and preformatted text styles */
+code {
+  @apply bg-lightPurple rounded-md text-black text-sm p-1.5;
+}
+
+pre {
+  @apply bg-black rounded-md text-white my-6 py-3 px-4;
+}
+
+pre code {
+  @apply bg-none text-inherit text-xs p-0;
+}
+
+html {
+  --title-font-family: 'Helvetica', sans-serif;
+}
+
+blockquote {
+  @apply border-l border-solid border-grayText my-6 pl-4;
+}
+
+hr {
+  @apply border-0 border-t border-solid border-grayText my-8;
+}
+
+.dropdown-menu {
+  @apply bg-white border border-solid border-gray-300 rounded-md shadow-lg flex flex-col gap-1 overflow-auto p-1.5 relative text-[14px];
+}
+
+.dropdown-menu button {
+  @apply items-center rounded-[5px] bg-transparent flex gap-1 text-left w-full p-px hover:bg-gray-200 px-2 py-0.5;
+}
+
+.dropdown-menu button.is-selected {
+  @apply bg-gray-200;
+}

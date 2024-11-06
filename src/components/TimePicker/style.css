@@ -1,0 +1,50 @@
+.atp-background-color {
+  @apply flex shadow-none !w-auto !bg-transparent flex-row-reverse justify-center gap-12;
+}
+.atp-clock-cnt {
+  @apply p-0;
+}
+.atp-clock {
+  @apply w-48 h-48;
+}
+.atp-face-color {
+  @apply bg-primaryLight border border-solid border-secondary/10;
+}
+.atp-h-dot {
+  @apply h-1.5 w-1.5 bg-primary;
+}
+.atp-h {
+  @apply bg-primary;
+}
+.atp-n {
+  @apply text-sm leading-5 text-primary font-medium font-inter;
+}
+.atp-b {
+  @apply bg-primary2;
+}
+
+.atp-time {
+  @apply relative h-fit mt-10 rounded-md bg-transparent text-dark p-0 bg-primaryLight border border-solid border-secondary/10;
+}
+.atp-time input.atp-hour,
+.atp-time input.atp-minute {
+  @apply text-dark text-6xl font-medium text-center opacity-100;
+}
+.atp-ampm {
+  @apply absolute rounded-md -bottom-12 w-full left-0 bg-primaryLight border border-solid border-secondary/10 flex gap-1.5;
+}
+.atp-ampm button {
+  @apply flex-[1_0_0%] text-base leading-6 block text-dark font-medium py-1.5;
+}
+.atp-ampm button.atp-am {
+  @apply rounded-l-md;
+}
+.atp-ampm button.atp-pm {
+  @apply rounded-r-md;
+}
+.atp-ampm button[aria-pressed] {
+  @apply bg-primary text-white;
+}
+.atp-clock-btn {
+  @apply hidden;
+}

@@ -1,0 +1,671 @@
+{
+  "translation": {
+    "Auth": {
+      "Login": {
+        "signInText": "Meld u aan bij uw account",
+        "welcomeMessage": "Welkom terug! Voer uw inloggegevens in om toegang te krijgen tot uw account.",
+        "loginButtonText": "Aanmelden",
+        "email": "E-mail",
+        "password": "Wachtwoord",
+        "emailPlaceholder": "Voer e-mail in",
+        "passwordPlaceholder": "Voer wachtwoord in",
+        "forgotPasswordText": "Wachtwoord vergeten?",
+        "socialMediaSignIn": "Inloggen met sociale media-accounts",
+        "newUser": "Nieuwe gebruiker?"
+      },
+      "ForgotPassword": {
+        "forgotPasswordTitle": "Wachtwoord vergeten?",
+        "description": "Geen zorgen! We hebben je gedekt. Voer hieronder je e-mailadres in om je wachtwoord te resetten.",
+        "resetButtonText": "Verstuur OTP",
+        "rememberPassword": "Je wachtwoord herinnerd?",
+        "emailPlaceholder": "Voer je geregistreerde e-mailadres in",
+        "loginText": "Log hier in"
+      },
+      "ResetPassword": {
+        "resetPassword": "Wachtwoord Resetten",
+        "confirmaPassword": "Bevestig Wachtwoord",
+        "password": "Wachtwoord",
+        "passwordPlaceholder": "Voer wachtwoord in",
+        "confirmPasswordPlaceholder": "Bevestig wachtwoord"
+      },
+      "RegisterCommon": {
+        "signUpText": "Maak een account aan",
+        "welcomeMessage": "Het aanmaken van uw account is de eerste stap naar het ontsluiten van een wereld aan mogelijkheden.",
+        "termsAndPolicyText": "Door op 'Verzenden' te klikken, ga je akkoord met onze",
+        "termsAndCondition": "Algemene voorwaarden",
+        "privacyPolicy": "Privacybeleid.",
+        "submitButtonText": "indienen",
+        "previousButtonText": "Vorig",
+        "nextButtonText": "volgende",
+        "continueButtonText": "Doorgaan",
+        "alreadyMemeberText": "Al lid van Proleven?",
+        "confirmPassword": "Bevestig wachtwoord",
+        "companyInfoText": "Bedrijfsinformatie",
+        "managerInfoText": "Managerinformatie",
+        "additionalInfoText": "Extra informatie",
+        "country": "Land",
+        "state": "Staat",
+        "city": "Stad",
+        "countryPlaceHolder": "Selecteer land",
+        "statePlaceHolder": "Selecteer staat",
+        "cityPlaceHolder": "Selecteer stad"
+      },
+      "RegisterCompany": {
+        "companyName": "Bedrijfsnaam",
+        "legalName": "Legale naam",
+        "registrationNumber": "Registratie nummer",
+        "companyEmail": "Bedrijfse-mail",
+        "companyAddress": "Adresregel 1",
+        "companyAddress2": "Adresregel 2",
+        "zipcode": "Postcode",
+        "companyWebsite": "Bedrijfswebsite",
+        "industry": "Industrie",
+        "companySize": "Bedrijfsomvang",
+        "companyNamePlaceHolder": "Voer bedrijfsnaam in",
+        "companyLegalNamePlaceHolder": "Voer wettelijke naam in",
+        "companyEmailPlaceHolder": "Voer e-mailadres in",
+        "companyAddress1PlaceHolder": "Voer adresregel 1 in",
+        "companyAddress2PlaceHolder": "Voer adresregel 2 in",
+        "companyZipPlaceHolder": "Voer postcode in",
+        "companyIndustryPlaceHolder": "Voer branche in",
+        "companySizePlaceHolder": "Voer bedrijfsgrootte in"
+      },
+      "RegisterManager": {
+        "firstname": "Voornaam",
+        "lastname": "Achternaam",
+        "jobTitle": "Functie",
+        "contactNo": "Contactnummer",
+        "email": "E-mailadres",
+        "billingAddress": "Factuuradres",
+        "managerFirstNamePlaceHolder": "Voer voornaam in",
+        "managerLastNamePlaceHolder": "Voer achternaam in",
+        "managerJobTitlePlaceHolder": "Voer functietitel in"
+      },
+      "AdditionalInfo": {
+        "companyLogoText": "Bedrijfslogo",
+        "companyDescription": "Bedrijfsbeschrijving",
+        "dragDropText": "Sleep een afbeelding hierheen of Blader",
+        "descriptionPlaceHolder": "Schrijf bedrijfsomschrijving"
+      },
+      "RegisterTrainer": {
+        "trainerProfileSetup": "Profielinstellingen",
+        "profileImageText": "Profiel toevoegen - Sleep een afbeelding hierheen, of",
+        "trainerName": "Naam",
+        "trainerNamePlaceHolder": "Voer naam in",
+        "trainerHourlyRate": "Uurtarief",
+        "trainerTravelFees": "Reiskostenvergoeding",
+        "trainerTravelPlaceHolderText": "Voer kosten in",
+        "trainerAttachment": "Bijlage",
+        "trainerAttachmentPlaceHolder": "Kies bestand",
+        "trainerLocation": "Locatie Trainer",
+        "trainerLocationPlaceHolderText": "Adres..",
+        "goToGoogle": "Ga naar Google Maps",
+        "trainerCourse": "Cursus",
+        "trainerCoursePlaceHolder": "Selecteer cursus",
+        "trainerCalender": "Verbind je agenda",
+        "Validation": {
+          "nameValidation": "Naam is verplicht",
+          "hourRateValidation": "Uurtarief is verplicht",
+          "numberGreaterThanZero": "Getal moet groter zijn dan 0",
+          "onlyNumberAllowed": "Alleen getallen toegestaan"
+        }
+      },
+      "TwoFactorScreen": {
+        "twoFactorTitle": "Tweestapsverificatie",
+        "twoFactorDescription": "Open alsjeblieft de Google Authenticator-app op je mobiele apparaat en scan deze QR-code om een code te ontvangen.",
+        "enterManually": "Of voer de volgende code handmatig in:",
+        "otpInformation": "Zodra je apparaat is geregistreerd, zie je een 6-cijferige verificatiecode in de app."
+      },
+      "OtpScreen": {
+        "verifyAccountTitle": "Verifieer Je Account",
+        "verifyText1": "We hebben je een 6-cijferige code per e-mail gestuurd.",
+        "verifyText2": "Voer de code hieronder in om je e-mailadres te bevestigen.",
+        "verifyAccountBtnText": "Verifieer Account",
+        "resendOTPContent": "Geen OTP ontvangen?",
+        "resendText": "Stuur OTP opnieuw"
+      }
+    },
+    "Dashboard": {
+      "reports": {
+        "title": "Verdienstenrapporten",
+        "description": "Overzicht van Verdiensten",
+        "reportsTab1": "Maandelijks",
+        "reportsTab2": "Wekelijks"
+      },
+      "courses": {
+        "title": "Populaire Cursussen",
+        "descriptionText1": "Totaal",
+        "descriptionText2": "Bezoekers"
+      },
+      "tiles": {
+        "tileTitle1": "Totaal Trainingsspecialisten",
+        "tileTitle2": "Totaal Trainers",
+        "tileTitle3": "Totaal Aangemaakte Cursussen",
+        "tileTitle4": "Totaal Gebruikers"
+      },
+      "CourseInvitation": {
+        "courseTitle": "Uitnodiging voor Cursus",
+        "courses": "Cursussen",
+        "type": "Type",
+        "invite": "Uitnodigen"
+      },
+      "TrainerCourse": {
+        "trainerCourseTitle": "Cursussen van vandaag",
+        "courseDescription": "Het doel van deze takenlijst is om de Training Specialist te herinneren aan de aangevraagde cursussen en de cursussen die momenteel in de wacht staan."
+      }
+    },
+    "Header": {
+      "search": {
+        "placeholder": "Zoek hier...",
+        "title": "Zoeken"
+      },
+      "notificationDropdown": {
+        "title": "Meldingen",
+        "generalTab": "Algemeen",
+        "taskTab": "Taak",
+        "markTab": "Markeer als gelezen",
+        "notify": "Bekijk Alle Meldingen"
+      },
+      "profileDropdown": {
+        "viewProfileLabel": "Bekijk Profiel",
+        "accountLabel": "Accountinstellingen",
+        "logoutLabel": "Uitloggen",
+        "changePasswordlabel": "Change Password"
+      }
+    },
+    "UserManagement": {
+      "UserManagement": "Gebruikersbeheer",
+      "add": "Toevoegen",
+      "edit": "Bewerken",
+      "columnHeader": {
+        "no": "Nr.",
+        "name": "Naam",
+        "emailId": "E-mail ID"
+      },
+      "addEditUser": {
+        "userId": "Gebruikers-ID",
+        "fullName": "Volledige naam",
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mail",
+        "contact": "Mobiel Nummer",
+        "role": "Rol",
+        "status": "Toestand",
+        "export": "EsportaExporteren (.XLS-bestand)",
+        "bulkUpload": "Massa Upload",
+        "addUser": "Voeg gebruiker toe",
+        "editUser": "Gebruiker Bewerken",
+        "deleteText": "Weet je zeker dat je de gebruiker wilt verwijderen?"
+      },
+      "placeHolders": {
+        "firstName": "Voer voornaam in",
+        "lastName": "Voer achternaam in",
+        "email": "Voer e-mailadres in",
+        "contact": "Voer mobiel nummer in"
+      },
+      "validation": {
+        "firstNameRequired": "Voornaam is verplicht",
+        "emailRequired": "E-mail is verplicht",
+        "lastNameRequired": "Achternaam is verplicht",
+        "invalidEmail": "Ongeldig e-mailadres",
+        "mobileRequired": "Mobiel nummer is verplicht",
+        "roleRequired": "Rol is verplicht",
+        "statusRequired": "Status is verplicht"
+      }
+    },
+    "roles": {
+      "trainingSpecialist": "Trainingsspecialist",
+      "salesRep": "Verkoopvertegenwoordiger",
+      "managerCompany": "Bedrijfsmanager",
+      "trainer": "Trainer",
+      "accountingTeamMember": "Lid van het boekhoudteam",
+      "TrainingSpecialist": "Trainingsspecialist",
+      "SalesRep": "Verkoopvertegenwoordiger",
+      "ManagerCompany": "Bedrijfsmanager",
+      "Trainer": "Trainer",
+      "AccountingTeamMember": "Teamlid Boekhouding",
+      "Company": "Bedrijf",
+      "CompanyManager": "Bedrijfsmanager",
+      "Accounting": "Boekhouding",
+      "PrivateIndividual": "Privépersoon"
+    },
+    "ClientManagement": {
+      "ClientManagement": "Klantbeheer",
+      "invoiceOptions": {
+        "yesOption": "ja",
+        "noOption": "Nee"
+      },
+      "ClientButtons": {
+        "exportButton": "Exporteren (.XLS-bestand)",
+        "bulkUploadButton": "Bulk Uploaden",
+        "addClientButton": "Klant Toevoegen"
+      },
+      "clientColumnTitles": {
+        "clientNo": "Nr. Klant",
+        "clientTitle": "Bedrijfsnaam",
+        "clientRegisterationNo": "Registratienummer",
+        "clientVatNo": "BTW-nummer",
+        "clientCountry": "Land",
+        "clientDate": "Datum",
+        "clientStatus": "Status"
+      },
+      "clientForm": {
+        "addTitle": "Bedrijf Toevoegen",
+        "validation": {
+          "companyNameValidation": "Bedrijfsnaam is verplicht",
+          "company_name_format_validation": "Maximaal 100 tekens toegestaan",
+          "vatNumberValidation": "BTW-nummer is verplicht",
+          "registrationNumberValidation": "Registratienummer is verplicht",
+          "registeration_length_validation": "Lengte registratienummer moet gelijk zijn aan 8",
+          "vat_length_validation": "Lengte BTW-nummer moet gelijk zijn aan 11",
+          "companyAddressValidation": "Adresregel 1",
+          "companyWebsiteValidation": "Bedrijfswebsite",
+          "zipcodeValidation": "Postcode is verplicht",
+          "industryValidation": "Branche is verplicht",
+          "countryValidation": "Land is verplicht",
+          "stateValidation": "Provincie is verplicht",
+          "cityValidation": "Stad is verplicht",
+          "logosizeValidation": "Afbeeldingsgrootte moet minder zijn dan 5 MB",
+          "logoformatValidation": "Alleen de volgende formaten zijn toegestaan: .jpeg, .jpg en .png",
+          "atecoValidation": "ATECO-code is verplicht",
+          "sdiValidation": "SDI is verplicht",
+          "ateco_format_validation": "Ongeldig numeriek patroon",
+          "sdi_format_validation": "Alleen alfanumerieke tekens zijn toegestaan",
+          "sdi_length_validation": "Lengte code moet gelijk zijn aan 7",
+          "accountingEmailValidation": "E-mail is niet geldig",
+          "accounting_email_format_validation": "E-mail van de boekhoudafdeling is verplicht",
+          "selectInvoiceValidation": "Optie Selecteren is Verplicht",
+          "managersRequired": "Selecteer ten minste één bedrijf",
+          "managers_format_validation": "Bedrijf is Verplicht"
+        },
+        "fieldInfos": {
+          "companyName": "Bedrijfsnaam",
+          "vatNumber": "BTW-nummer",
+          "registrationNumber": "Registratienummer",
+          "companyAddress": "Adresregel 1",
+          "companyAddress2": "Adresregel 2",
+          "zipcode": "Postcode",
+          "country": "Land",
+          "state": "Provincie",
+          "city": "Stad",
+          "atecoCode": "ATECO-code",
+          "sdiCode": "SDI-code",
+          "manager": "Bedrijfsmanager",
+          "purchaseOrder": "Heeft uw bedrijf een bestelnummer nodig op de facturen?",
+          "companyNamePlaceHolder": "Voer bedrijfsnaam in",
+          "vatNamePlaceHolder": "bijv. IT123212301",
+          "registrationNumberPlaceHolder": "bijv. AB123456",
+          "emailPlaceHolder": "Voer e-mailadres in",
+          "accountingEmail": "E-mailadres van de boekhoudafdeling",
+          "address1PlaceHolder": "Voer adresregel 1 in",
+          "address2PlaceHolder": "Voer adresregel 2 in",
+          "zipPlaceHolder": "Voer postcode in",
+          "countryPlaceHolder": "Selecteer land",
+          "statePlaceHolder": "Selecteer provincie",
+          "cityPlaceHolder": "Selecteer stad",
+          "companyLogoText": "Bedrijfslogo",
+          "companyDescription": "Bedrijfsomschrijving",
+          "dragDropText": "Sleep een afbeelding of Bladeren",
+          "descriptionPlaceHolder": "Schrijf een bedrijfsomschrijving",
+          "atecoPlaceHolder": "bijv. 01.11Z",
+          "sdiPlaceHolder": "bijv. 123xyz",
+          "managerPlaceHolder": "Selecteer Manager",
+          "addManagerLink": "Kan je bedrijfsmanager hier niet vinden?"
+        }
+      }
+    },
+    "ClientManagers": {
+      "ClientManagers": "Bedrijfsmanagers",
+      "managersButtons": {
+        "exportButton": "Exporteren (.XLS-bestand)",
+        "bulkUploadButton": "Bulk Uploaden",
+        "addClientButton": "Voeg Manager Toe"
+      },
+      "managersColumnTitles": {
+        "managerNo": "Nr. Manager",
+        "managerId": "Gebruikers-ID",
+        "managerName": "Naam",
+        "managerEmail": "E-mailadres",
+        "managerMobileNo": "Mobiel Nr.",
+        "managerCompanyName": "Bedrijfsnaam"
+      },
+      "clientForm": {
+        "addTitle": "Voeg Manager Toe",
+        "editTitle": "Bewerk Manager",
+        "validation": {
+          "firstNameRequired": "Voornaam is verplicht",
+          "lastNameRequired": "Achternaam is verplicht",
+          "jobTitleRequired": "Functietitel is verplicht",
+          "mobilenoRequired": "Contactnummer is verplicht",
+          "invalidEmail": "E-mail is niet geldig",
+          "emailRequired": "E-mailadres is verplicht",
+          "invalidContact": "Contact is ongeldig",
+          "companiesRequired": "Selecteer ten minste één bedrijf",
+          "companies_format_validation": "Bedrijf is Verplicht"
+        },
+        "fieldInfos": {
+          "firstName": "Voornaam",
+          "lastName": "Achternaam",
+          "jobTitle": "Functietitel",
+          "email": "E-mailadres",
+          "contact": "Contact Nr.",
+          "companies": "Bedrijf van de Manager",
+          "firstNamePlaceHolder": "Voer voornaam in",
+          "lastNamePlaceHolder": "Voer achternaam in",
+          "jobTitlePlaceHolder": "Voer functietitel in",
+          "emailPlaceHolder": "Voer e-mailadres in",
+          "companyPlaceHolder": "Selecteer bedrijf van de Manager",
+          "contactPlaceHolder": "(603) 555-0123",
+          "addCompanyLink": "Kan je bedrijf hier niet vinden?"
+        }
+      }
+    },
+    "Button": {
+      "backButton": "Terug",
+      "updateButton": "Bijwerken",
+      "cancelButton": "Annuleren",
+      "deleteButton": "Verwijderen",
+      "submit": "Verzenden"
+    },
+    "SideNavigation": {
+      "dashboardTitle": "Dashboard",
+      "userTitle": "Users Management",
+      "ticketTitle": "Tickets Management",
+      "coursesTitle": "Courses Management",
+      "emailtempTitle": "Email Template",
+      "settingsTitle": "Settings",
+      "client": {
+        "label": "Klanten",
+        "companyTitle": "Bedrijf",
+        "managerTitle": "Klantmanagers",
+        "privateTitle": "Privéleden"
+      },
+      "chatTitle": "Chat",
+      "notificationTitle": "Notifications",
+      "calendarTitle": "Calendar",
+      "projectDetails": "Project Management"
+    },
+    "footer": {
+      "copyright": "©Auteursrecht@Proleven",
+      "policy": "Privacybeleid"
+    },
+    "EmailTemplate": {
+      "emailTempTitle": "E-mailsjablonen",
+      "createTemp": "Maak E-mailsjabloon",
+      "emailTempTableNo": "Nr",
+      "emailTempTableId": "Id",
+      "emailTempTableTitle": "Naam E-mailsjabloon",
+      "emailTempTableSubject": "Onderwerp",
+      "emailTempTableDescription": "Beschrijving",
+      "emailTempTableActions": "Acties",
+      "editEmailTemp": "Bewerk E-mailsjabloon",
+      "titleplaceholder": "Voer de titel van het e-mailsjabloon in",
+      "subjectplaceholder": "Voer het onderwerp in",
+      "cancel": "Annuleren",
+      "update": "Bijwerken sjabloon",
+      "labelTitle": "Titel e-mailsjabloon"
+    },
+    "Table": {
+      "no.": "N.",
+      "search": "Ricerca",
+      "action": "Azione",
+      "noDataFound": "Nessun dato trovato..!",
+      "showing": "Visualizzazione",
+      "to": "a",
+      "of": "di",
+      "records": "record"
+    },
+    "CoursesManagement": {
+      "CreateCourse": {
+        "courseInformation": "Cursusinformatie",
+        "instruction": "Voer uw cursusinformatie in en ga verder naar de volgende stap zodat we de nieuwe cursus kunnen uploaden",
+        "course": "cursus",
+        "courseName": "Cursusnaam",
+        "courseCode": "Cursuscode",
+        "price": "Prijs",
+        "category": "Categorie",
+        "duration": "Duur",
+        "courseType": "Cursustype",
+        "courseMode": "Cursusmodus",
+        "conferencingPlatform": "Vergaderplatform",
+        "coursePlace": "Cursusplaats",
+        "requiredResources": "Benodigde Middelen",
+        "maxParticipants": "Maximale Deelnemers",
+        "courseCertificate": "Cursuscertificaat",
+        "assignToTrainer": "Toewijzen aan trainer",
+        "funded": "Gefinancierd",
+        "wantToAddLesson": "Wil je een les toevoegen?",
+        "uploadCertificate": "Upload Cursuscertificaat",
+        "dragAndDrop": "Sleep en Plaats",
+        "maxFileSize": "Max bestandsgrootte",
+        "browseImage": "Blader door Afbeelding",
+        "address": "Adres",
+        "namePlaceHolder": "Voer naam in",
+        "codePlaceHolder": "XXXXXXXXXX",
+        "pricePlaceHolder": "00000",
+        "categoryPlaceHolder": "Voer categorie in",
+        "durationPlaceHolder": "dd/mm/jjjj",
+        "subCategory": "Subcategorie",
+        "date": "Datum",
+        "project": "Project",
+        "notes": "Notities",
+        "lesson": "Les",
+        "lessonTitle": "Les Titel",
+        "lessonLink": "Voeg link toe (indien verstrekt door klant)",
+        "lessonMode": "Lesmodus",
+        "lessonTrainer": "Toegewezen Trainer",
+        "deleteLesson": "Verwijder Les",
+        "addLesson": "Voeg Les Toe",
+        "selectTemplate": "Selecteer cursus sjabloon",
+        "templatePlaceHolder": "Selecteer sjabloon",
+        "projectPlaceHolder": "Selecteer Project",
+        "notesPlaceHolder": "Voer Notities in...",
+        "lessonNamePlaceHolder": "Voer naam in",
+        "lessonLinkPlaceHolder": "Plaats hier de link",
+        "lessonModePlaceHolder": "Selecteer lesmodus",
+        "resourcesPlaceHolder": "Selecteer middelen",
+        "trainerPlaceHolder": "Wijs een Trainer toe",
+        "marksPlaceHolder": "Punten",
+        "questionPlaceHolder": "Voer Vraag in",
+        "correctAnswerPlaceHolder": "Selecteer het juiste antwoord",
+        "option": "Optie",
+        "other": "Anders",
+        "exam": "Examen",
+        "attendance": "Aanwezigheid",
+        "crateMcq": "Maak MCQ-examen"
+      },
+      "CourseCategory": {
+        "coursesCategory": "Cursuscategorie",
+        "courseCategory": "Cursuscategorie",
+        "courseSubCategory": "Cursus Subcategorie",
+        "subCategories": "Subcategorieën",
+        "AddEditCategory": {
+          "name": "Naam",
+          "category": "Categorie",
+          "categoryImage": "Categorie Afbeelding",
+          "addCategory": "Voeg Categorie toe",
+          "editCategory": "Bewerk Categorie",
+          "imageRequired": "Afbeelding is verplicht",
+          "imageValidation": "Alleen de volgende formaten zijn toegestaan: .jpeg, .jpg en .png"
+        },
+        "AddEditSubCategory": {
+          "subCategory": "Subcategorie",
+          "subCategoryName": "Naam subcategorie",
+          "addSubCategory": "Subcategorie toevoegen",
+          "editSubCategory": "Subcategorie bewerken",
+          "add": "Toevoegen",
+          "update": "Bijwerken",
+          "deleteText": "Sei sicuro di voler eliminare la sottocategoria?"
+        },
+        "PlaceHolders": {
+          "categoryNamePlaceHolder": "Voer de categorienaam in",
+          "subCategoryNamePlaceHolder": "Voer de naam van de subcategorie in"
+        },
+        "Validation": {
+          "categoryRequired": "Categorienaam is verplicht",
+          "subCategoryRequired": "Subcategorie is verplicht"
+        }
+      },
+      "Errors": {
+        "Lessons": {
+          "title": "Lesnaam is verplicht",
+          "mode": "Modus is verplicht",
+          "lessonId": "Les-ID is verplicht",
+          "clientMeetingLink": "Link naar klantenvergadering is verplicht",
+          "meetingLink": "Link naar vergadering is verplicht",
+          "startMeetingLink": "Link naar start van vergadering is verplicht",
+          "meetingId": "Vergader-ID is verplicht",
+          "startTime": "Starttijd is verplicht",
+          "endTime": "Eindtijd is verplicht"
+        },
+        "Course": {
+          "courseId": "Cursus is verplicht",
+          "title": "Cursusnaam is verplicht",
+          "notes": "Cursusnotities zijn verplicht",
+          "description": "Cursusbeschrijving is verplicht",
+          "type": "Cursustype is verplicht",
+          "duration": "Cursusduur is verplicht",
+          "code": "Cursuscode is verplicht",
+          "marked_as": "Gemarkeerd als is verplicht",
+          "isTemplate": "Is een sjabloon is verplicht",
+          "startDate": "Startdatum is verplicht",
+          "endDate": "Einddatum is verplicht",
+          "hasExam": "Heeft examen is verplicht",
+          "needDigitalAttendanceSheet": "Digitaal aanwezigheidsblad is verplicht",
+          "founded": "Oprichtingsdatum is verplicht",
+          "fundedBy": "Gefinancierd door is verplicht",
+          "rejectReason": "Afwijsreden is verplicht",
+          "meetingRoomNumber": "Vergaderruimtenummer is verplicht",
+          "maximumParticipateAllowed": "Maximaal aantal deelnemers is verplicht",
+          "price": "Prijs is verplicht",
+          "certificatePdfLink": "Link naar PDF-certificaat is verplicht",
+          "maximumParticipationAttendance": "Maximale deelname is verplicht",
+          "image": "Afbeelding is verplicht",
+          "status": "Status is verplicht",
+          "courseTemplateId": "Cursussjabloon is verplicht",
+          "category": "Categorie is verplicht",
+          "clonedCourse": "Gekloonde cursus is verplicht",
+          "subCategory": "Subcategorie is verplicht",
+          "language": "Taal is verplicht",
+          "parentTable": "Hoofdtabel is verplicht",
+          "assignedTo": "Toegewezen aan is verplicht",
+          "courseImage": "Cursusafbeelding is verplicht"
+        },
+        "Exam": {
+          "questionRequired": "Vraag is verplicht",
+          "markRequired": "Punten zijn verplicht",
+          "markMustBePositive": "Punten moeten een positief getal verschillend van nul zijn",
+          "durationRequired": "Duur is verplicht",
+          "durationMustBePositive": "Duur moet een positief getal verschillend van nul zijn",
+          "answerRequired": "Selecteer het antwoord, alsjeblieft"
+        }
+      }
+    },
+    "Chat": {
+      "chatSearchPlaceholder": "Zoek hier...",
+      "sendMessagePlaceholder": "Typ je bericht...",
+      "noChatFound": "Chat niet gevonden",
+      "userNotFound": "Gebruiker niet gevonden",
+      "messages": "bericht",
+      "todayText": "Vandaag",
+      "yesterDayText": "Gisteren"
+    },
+    "SendMail": {
+      "to": "Aan",
+      "title": "E-mails versturen",
+      "compose": "Opstellen",
+      "mail": "E-mail",
+      "createMail": "Maak E-mail",
+      "from": "Van",
+      "cc": "CC",
+      "bcc": "BCC",
+      "subjectPlaceholder": "Voer onderwerp in",
+      "fileSubtitle": "Sleep of zet bestand hier neer",
+      "cancelBtn": "Annuleren",
+      "submit": "Verstuur E-mail",
+      "viewMail": "Bekijk E-mail"
+    },
+    "sendMailValidation": {
+      "toAddressRequired": "Het e-mailadres van de ontvanger is verplicht",
+      "subjectRequired": "Onderwerp is verplicht",
+      "descriptionRequired": "Beschrijving is verplicht"
+    },
+    "emailTempValidation": {
+      "titleRequired": "Titel is verplicht",
+      "subjectRequired": "Onderwerp is verplicht"
+    },
+    "RegisterCompanyValidationSchema": {
+      "companyName": "Bedrijfsnaam is verplicht",
+      "compMaxLength": "Maximaal 100 tekens toegestaan",
+      "companyLegalName": "Juridische naam is verplicht",
+      "companyRegistrationNumber": "Registratienummer is verplicht",
+      "emailValidation": "Het e-mailadres is ongeldig",
+      "emailRequired": "Bedrijfse-mail is verplicht",
+      "countryRequired": "Land is verplicht",
+      "stateRequired": "Staat is verplicht",
+      "cityRequired": "Stad is verplicht",
+      "addressRequired1": "Bedrijfsadres (regel 1) is verplicht",
+      "addressRequired2": "Bedrijfsadres (regel 2) is verplicht",
+      "websiteRegEx": "Voer een geldige website in",
+      "industryRequired": "Branche is verplicht",
+      "zipCodeRequired": "Postcode is verplicht",
+      "zipCodeValid": "Postcode moet een getal zijn",
+      "firstName": "Voornaam is verplicht",
+      "lastName": "Achternaam is verplicht",
+      "contactNumber": "Contactnummer is verplicht",
+      "mobileNumber": "Ongeldig mobiel nummer",
+      "jobTitle": "Functietitel is verplicht"
+    },
+    "RegAdditionSchema": {
+      "imageSize": "De afbeeldingsgrootte moet kleiner zijn dan 5 MB",
+      "imageFormat": "Alleen de volgende formaten worden geaccepteerd: .jpeg, .jpg en .png",
+      "compDescription": "Bedrijfsomschrijving is verplicht"
+    },
+    "RegistrationForgotPass": {
+      "passwordRequired": "Wachtwoord is verplicht",
+      "capitalPass": "Het wachtwoord moet minstens één hoofdletter bevatten",
+      "specialChar": "Het wachtwoord moet minstens één speciaal karakter bevatten",
+      "lowerCase": "Het wachtwoord moet minstens één kleine letter bevatten",
+      "numberReq": "Het wachtwoord moet minstens één nummer bevatten",
+      "noSpace": "Het wachtwoord moet minimaal 8 tekens bevatten zonder spaties",
+      "confirmPassword": "Bevestig wachtwoord is verplicht",
+      "matchConfirmPass": "Het bevestigde wachtwoord moet overeenkomen met het wachtwoord"
+    },
+    "Status": {
+      "active": "Actief",
+      "inactive": "Inactief"
+    },
+    "ErrorBoundary": {
+      "title": "Oeps! Er ging iets mis",
+      "message": "Sorry, de pagina die je hebt opgevraagd kon niet worden gevonden. Ga alsjeblieft terug naar de startpagina!",
+      "pageNotFound": "Pagina niet gevonden!",
+      "notAuthorized": "Niet gemachtigd"
+    },
+    "Notification": {
+      "loadMore": "Meer laden",
+      "viewAll": "Bekijk alle meldingen",
+      "markRead": "Alles als gelezen markeren",
+      "notification": "Melding",
+      "noNotification": "Geen meldingen gevonden"
+    },
+    "FileInputText": {
+      "dragText": "Sleep een afbeelding hierheen, of",
+      "browseText": "Blader"
+    },
+    "FileInputXLS": {
+      "dragText": "Drag en Drop",
+      "maxFileSize": "Maximale bestandsgrootte 50 MB of 10000 rijen",
+      "browseText": "Blader door .xls/.xlsx bestand",
+      "removeFile": "Verwijder bestand"
+    },
+    "FileInputLink": {
+      "selectText": "Selecteer of Sleep je bestand hier"
+    },
+    "ToastMessage": {
+      "notUploadMoreFileText": "Kan niet meer uploaden dan",
+      "items": "items",
+      "validFileTypeText": "Selecteer alstublieft een geldig",
+      "validFileSizeText": "grootte moet kleiner zijn dan"
+    }
+  }
+}

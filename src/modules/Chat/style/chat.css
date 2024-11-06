@@ -1,0 +1,47 @@
+/* .overlay-fileinput {
+  @apply fixed top-0 left-0 w-full h-full bg-black/70 z-3 transition-all duration-500;
+} */
+.user-chat-header {
+  @apply flex items-center px-5 py-3 cursor-pointer border-b border-solid border-gray-300;
+}
+
+.active-user {
+  @apply inline-block border border-solid border-white w-2 h-2 bg-ic_1 rounded-full absolute bottom-0.5 right-0.5;
+}
+.unread-message {
+  @apply block ms-1 bg-green-600 text-white tracking-wide rounded-full py-1 px-1 leading-none h-fit text-[10px] min-w-[18px] text-center;
+}
+
+.chat-file-label {
+  @apply w-10 h-10 p-2 rounded-full bg-white text-primary shadow-xl flex items-center justify-center cursor-pointer active:scale-95 transition-all duration-300;
+}
+
+.chat-file-open {
+  @apply w-7 h-7 inline-block cursor-pointer border-2 border-solid border-primary text-primary rounded-lg p-0.5 transition-all duration-300 active:scale-95;
+}
+.chat_file_label {
+  @apply w-10 h-10 p-2 rounded-full bg-white text-primary shadow-xl flex items-center justify-center cursor-pointer active:scale-95 transition-all duration-300;
+}
+.chat-submit-button {
+  @apply w-10 h-10 inline-block cursor-pointer bg-primary rounded-xl text-white transition-all p-2.5 duration-300 active:scale-95 select-none;
+}
+
+.chat-emoji-button {
+  @apply w-7 h-7 inline-block cursor-pointer text-grayText transition-all p-0.5 duration-300 active:scale-95 select-none;
+}
+
+.display-date-line {
+  @apply my-5 flex justify-center items-center w-full relative before:absolute before:content-[''] before:w-full before:h-px before:top-1/2 before:-translate-y-1/2 before:bg-dark/10;
+}
+
+.more-image-overlay {
+  @apply absolute pointer-events-none top-0 left-0 w-full h-full bg-black/80 rounded-md flex items-center justify-center text-white font-semibold text-3xl;
+}
+
+.video-icon-container {
+  @apply absolute top-0 left-0 w-full h-full rounded-md bg-black/60 flex items-center justify-center;
+}
+
+.video-icon {
+  @apply w-10 h-10 bg-white text-dark rounded-full p-1.5 ps-2 flex items-center justify-center;
+}

@@ -1,0 +1,144 @@
+/* GLOBAL AND MONTH */
+
+.rbc-calendar {
+  @apply !h-auto;
+}
+.rbc-calendar * {
+  @apply border-offWhite;
+}
+.rbc-toolbar {
+  @apply mb-7;
+}
+.rbc-btn-group {
+  @apply flex items-center;
+}
+.view-group button {
+  @apply border-offWhite capitalize hover:bg-primary/10 hover:border-offWhite active:!bg-primary/10 active:!border-offWhite focus:bg-primary/10 focus:border-offWhite rounded-none first:rounded-l-full last:rounded-r-full py-2 px-5 text-sm !shadow-none font-medium text-dark transition-all duration-300;
+}
+.view-group button.rbc-active {
+  @apply bg-primary text-white hover:bg-primary/10 hover:border-offWhite active:bg-primary/10 active:border-offWhite focus:bg-primary focus:text-offWhite;
+}
+.rbc-toolbar-label {
+  @apply font-semibold text-dark text-xl leading-6;
+}
+.rbc-row.rbc-time-header-cell {
+  @apply min-h-[unset];
+}
+.rbc-header {
+  @apply py-3 bg-offWhite text-base leading-6 font-medium;
+}
+.rbc-off-range-bg {
+  @apply bg-transparent;
+}
+.rbc-month-row .rbc-date-cell.rbc-off-range {
+  @apply text-grayText;
+}
+.rbc-month-row .rbc-date-cell {
+  @apply pt-1.5 pe-2.5 text-sm text-dark;
+}
+.rbc-month-row {
+  @apply min-h-[128px] flex-[unset];
+}
+.rbc-day-bg.rbc-today,
+.rbc-time-content .rbc-today {
+  @apply bg-gray-400/10;
+}
+.rbc-day-slot.rbc-today {
+  @apply bg-transparent;
+}
+
+.rbc-nav-buttons {
+  @apply flex items-center gap-x-2;
+}
+.rbc-nav-buttons button {
+  @apply relative transition-all duration-300 p-2 m-0 w-8 h-8 rounded-full flex items-center justify-center border border-solid text-dark border-grayText/20;
+}
+.rbc-nav-buttons button.today {
+  @apply bg-primary border-primary text-white p-0.5;
+}
+.rbc-month-row .rbc-row-segment {
+  @apply px-1.5;
+}
+.rbc-month-row .rbc-event,
+.rbc-month-row .rbc-event-content {
+  @apply h-full;
+}
+.rbc-month-row .rbc-event-content > .isMonthView {
+  @apply h-[calc(100%_-_25px)];
+}
+
+.rbc-overlay {
+  @apply rounded-lg max-h-[calc(100dvh_-_500px)] overflow-auto pt-0 flex flex-col gap-2 [&_:nth-child(2)]:mt-1.5;
+}
+.rbc-overlay-header {
+  @apply text-base text-dark font-semibold pt-2.5 pb-2 sticky top-0 bg-white;
+}
+
+/* WEEK */
+.rbc-day-slot .rbc-event {
+  @apply !static !w-full !h-auto !border-0 flex-shrink-0;
+}
+.day-view .rbc-events-container,
+.week-view .rbc-events-container {
+  @apply flex flex-col gap-1.5 m-0 pt-2.5 px-1 max-h-full overflow-auto;
+}
+.week-view .rbc-label.rbc-time-header-gutter,
+.week-view .rbc-time-gutter.rbc-time-column,
+.week-view .rbc-allday-cell,
+.day-view .rbc-time-gutter.rbc-time-column,
+.day-view .rbc-time-header-content {
+  @apply hidden;
+}
+.day-view .rbc-time-header-gutter {
+  @apply !max-w-[unset] !min-w-[unset] !w-full bg-grayText/20 py-2.5 flex items-center justify-center;
+}
+
+.rbc-timeslot-group {
+  @apply flex items-center;
+}
+.rbc-timeslot-group .rbc-time-slot {
+  @apply flex items-center;
+}
+.rbc-timeslot-group .rbc-time-slot + .rbc-time-slot {
+  @apply hidden;
+}
+.rbc-time-content {
+  @apply border-t;
+}
+.rbc-day-slot .rbc-time-slot {
+  @apply border-0;
+}
+.rbc-time-view {
+  @apply border-b-0;
+}
+
+/* EVENT PALLET */
+.rbc-event {
+  all: unset;
+}
+
+.rbc-show-more {
+  @apply text-dark text-xs leading-4 px-1.5 mt-0.5;
+}
+
+/* course details styles */
+.course-detail-type {
+  @apply flex flex-col gap-2.5 mt-4 border-b border-solid border-borderColor last:border-none mb-4 pb-4 last:pb-0 last:mb-0;
+}
+
+.course-detail-profile {
+  @apply flex flex-wrap gap-7 border-b border-solid border-borderColor last:border-none mb-4 pb-4 last:pb-0 last:mb-0;
+}
+
+/* session detail styles */
+.session-card-link {
+  @apply border border-solid border-primary/5 bg-primary/5 px-5 py-2 flex gap-2.5 rounded-lg items-center;
+}
+.filter-card-container {
+  @apply p-3.5 border border-solid flex items-center justify-between border-borderColor rounded-lg [&:has(input:checked)]:border-primary [&:has(input:checked)]:bg-primary/5 transition-all duration-300;
+}
+.rbc-month-view,
+.year-view-grid,
+.rbc-time-view {
+  @apply 1400:min-w-unset min-w-[1400px] 1400:overflow-unset overflow-auto;
+}

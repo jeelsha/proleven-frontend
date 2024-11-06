@@ -1,0 +1,18 @@
+.viewCard {
+  @apply flex flex-col gap-y-8 border-b border-solid border-borderColor pb-8 mb-8 last:mb-0 last:pb-0 last:border-none -mx-6;
+}
+.stages-list {
+  @apply relative ps-20 min-h-[155px] text-lg 2xl:text-xl flex flex-col gap-4 last:before:hidden before:absolute before:content-[''] before:h-full before:left-[11px] before:top-1 before:border before:border-solid before:border-borderColor;
+}
+.stage-list-button {
+  @apply absolute left-0 top-1 w-6 h-6 rounded-full ring-[10px];
+}
+.enrolled-button {
+  @apply py-3 px-5 border border-solid border-primary rounded-lg bg-primary/10 font-medium text-center text-base text-primary;
+}
+.requestCourse-card {
+  @apply hidden 1200:flex min-h-[calc(100dvh_-_250px)] items-center justify-center bg-primaryLight overflow-hidden rounded-l-xl;
+}
+.action-render {
+  @apply w-7 h-7 inline-block bg-green2/10 text-green2 p-1 rounded-md transition-all duration-300 active:scale-90 cursor-pointer select-none;
+}

@@ -1,0 +1,53 @@
+.addButton {
+  @apply flex items-center gap-2 bg-primary hover:bg-secondary text-white p-2 py-3 rounded-md transition-all hover:transition-all;
+}
+
+.viewCard {
+  @apply flex flex-col gap-y-8 border-b border-solid border-borderColor pb-8 mb-8 last:mb-0 last:pb-0 last:border-none;
+}
+
+.addIconCard {
+  @apply cursor-pointer w-12 h-12 bg-primary rounded-lg text-white flex justify-center items-center;
+}
+
+.languageButton {
+  @apply w-12 h-12 p-2.5 rounded-full flex items-center justify-center group-last:before:hidden before:-z-1 before:absolute before:content-[""] before:w-24 before:border-t-2 before:border-solid before:border-primary before:left-[calc(100%_+_7px)];
+}
+
+.filter-card-container {
+  @apply p-3.5 border border-solid flex items-center justify-between border-borderColor rounded-lg [&:has(input:checked)]:border-primary [&:has(input:checked)]:bg-primary/5 transition-all duration-300;
+}
+
+.calendar-filter-button {
+  @apply inline-flex items-center text-sm text-primary bg-primary/20 rounded-lg px-3 py-2.5 font-medium gap-1.5;
+}
+
+.calendar-filter-clear {
+  @apply mt-2 text-sm text-danger font-medium cursor-pointer underline inline-block underline-offset-2 select-none;
+}
+.task {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  touch-action: none;
+}
+.column {
+  background-color: #f2f2f3;
+  border-radius: 5px;
+  padding: 15px;
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.text-area {
+  @apply block w-full text-sm leading-normal p-3 placeholder:text-grayText text-dark font-normal border border-borderColor border-solid rounded-10px  focus:ring-2 focus:ring-dark/20 focus:ring-offset-2 transition-all duration-300;
+}

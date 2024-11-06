@@ -1,0 +1,46 @@
+.question-index {
+  @apply w-8 h-8 flex items-center justify-center bg-primary/10 text-base leading-5 text-primary rounded-full border border-solid border-primary font-semibold;
+}
+.add-edit-resource {
+  @apply flex items-center gap-2 bg-primary hover:bg-secondary text-white p-2 py-3 rounded-md transition-all hover:transition-all;
+}
+/* for mis match record view */
+.mis-match-card {
+  @apply flex flex-col gap-y-8 border-b border-solid border-borderColor pb-8 mb-8 last:mb-0 last:pb-0 last:border-none;
+}
+
+.mis-match-answer-button {
+  @apply capitalize text-xs leading-4 py-3.5 px-5 inline-block border border-solid border-borderColor rounded-lg cursor-default;
+}
+
+.filter-card-container {
+  @apply p-3.5 border border-solid flex items-center justify-between border-borderColor rounded-lg [&:has(input:checked)]:border-primary [&:has(input:checked)]:bg-primary/5 transition-all duration-300;
+}
+.member-img-div {
+  @apply w-9 h-9 rounded-full first:ms-0 -ms-4 shadow-md shadow-dark/20 ring-2 ring-white hover:z-1 relative;
+}
+.member-imgCount-div {
+  @apply w-9 h-9 rounded-full first:ms-0 -ms-4 shadow-md shadow-dark/20 ring-2 ring-white bg-white hover:z-1 relative;
+}
+.member-imgCount-span {
+  @apply inline-flex justify-center items-center bg-authBG text-primary font-medium text-sm w-full h-full rounded-full;
+}
+
+.current-form {
+  @apply w-12 h-12 p-2.5 rounded-full flex items-center justify-center group-last:before:hidden before:-z-1 before:absolute before:content-[""] before:w-24 before:border-t-2 before:border-solid before:border-primary before:left-[calc(100%_+_7px)];
+}
+
+.course-warning {
+  @apply bg-orange-500/15 text-orange-500 border border-solid border-orange-500/50 text-sm font-medium px-4 py-4 rounded-lg mb-2;
+}
+
+.trainer-remove-icon {
+  @apply w-4 h-4 select-none rounded-full hover:bg-primary hover:text-white border border-solid border-primary inline-block p-[3px] cursor-pointer active:scale-90 transition-all duration-300;
+}
+
+.has-ul ul {
+  @apply list-disc pl-5 font-normal;
+}
+.has-ul ol {
+  @apply list-disc pl-5 font-normal;
+}

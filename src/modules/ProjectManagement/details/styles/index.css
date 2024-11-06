@@ -1,0 +1,16 @@
+/* .react-kanban-column {
+  @apply bg-white shadow-kanbanCard shadow-dark/10 rounded-md w-[350px] pb-14 relative;
+}
+.react-kanban-column-header__spacer {
+  @apply text-base leading-5 font-semibold;
+}
+
+.react-kanban-column-header {
+  @apply pb-0;
+}
+.react-kanban-column_add-column {
+  @apply ps-2.5;
+}
+.react-kanban-column_add-column > * {
+  @apply bg-offWhite2 py-2  rounded-md w-[350px];
+} */

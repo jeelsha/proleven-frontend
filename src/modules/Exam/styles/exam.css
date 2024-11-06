@@ -1,0 +1,3 @@
+.survey-scale-div {
+  @apply h-full bg-green2 rounded-full relative after:absolute after:-right-3 after:-bottom-6 after:font-medium after:text-dark/50;
+}

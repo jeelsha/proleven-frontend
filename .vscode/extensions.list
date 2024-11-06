@@ -1,0 +1,6 @@
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension mikestead.dotenv
+code --install-extension donjayamanne.githistory
+code --install-extension rvest.vs-code-prettier-eslint
+code --install-extension streetsidesoftware.code-spell-checker
