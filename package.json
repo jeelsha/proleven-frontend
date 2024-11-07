@@ -74,7 +74,7 @@
     "react-quill": "^2.0.0",
     "react-redux": "^9.0.1",
     "react-router-dom": "^6.20.1",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "react-select": "^5.8.0",
     "react-signature-canvas": "^1.0.6",
     "react-simple-star-rating": "^5.1.7",
